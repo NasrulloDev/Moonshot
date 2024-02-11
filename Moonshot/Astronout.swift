@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Astronout: Codable, Identifiable {
+struct Astronout: Codable, Identifiable, Hashable {
     let id: String
     let name: String
     let description: String
